@@ -2,5 +2,5 @@
 /api/.env
 
 
-/chat-front/node_modules
-/chat-front/.env
+/front/node_modules
+/front/.env
