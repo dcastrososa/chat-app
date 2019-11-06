@@ -23,11 +23,11 @@ export const useChatLogic = () => {
   // Get chats and set in the state
   const initChats = async () => {
     const response = await chatDAO.findAll();
+    setLoadingChats(false);
     if (!response.data) return;
 
     const { data } = response;
     setChats(data);
-    setLoadingChats(false);
   };
 
   /**

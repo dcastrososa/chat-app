@@ -46,11 +46,13 @@ const Chats = () => {
               </Row>
             </Col>
             <Col span={14}>
-              <ChatContainer
-                chat={chats[chatIndexActive]}
-                sendMessage={sendMessage}
-                loading={loadingChatContainer}
-              />
+              {chats.length > 0 && (
+                <ChatContainer
+                  chat={chats[chatIndexActive]}
+                  sendMessage={sendMessage}
+                  loading={loadingChatContainer}
+                />
+              )}
             </Col>
           </Row>
         </>

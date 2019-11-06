@@ -53,8 +53,6 @@ class UsersController {
         where: { email }
       });
 
-      console.log(user);
-
       if (!user)
         return res.status(401).json({ message: "Invalid credentials" });
 
