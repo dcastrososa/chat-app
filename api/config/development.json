@@ -1,0 +1,10 @@
+{
+  "db": {
+    "user": "postgres",
+    "password": "123456",
+    "host": "localhost",
+    "name": "api-node",
+    "port": "5432"
+  },
+  "secret": "api-node"
+}

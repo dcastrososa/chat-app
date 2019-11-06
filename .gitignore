@@ -1,0 +1,6 @@
+/api/node_modules
+/api/.env
+
+
+/chat-front/node_modules
+/chat-front/.env
